@@ -1,19 +1,75 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-</head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<style>
+  section{
+    padding: 60px 0;
+  }
+</style>
+  </head>
+
 <body>
 
   <!-- Navbar -->
-
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-xxl">
+      <a href="#" class="navbar-brand">
+        <img src="/bootstrap/assets/l4o-logo.png" alt="">
+      </a>
+      <!--Toggler Button-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNavDropdown" class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="navbar-item">
+            <a href="#AboutL4O" class="nav-link">About L4O</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#get-in-touch" class="nav-link">Get in Touch</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#register-now" class="nav-link btn btn-md btn-primary ms-35-md text-white">Register Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- Title Image & Introduction Text -->
+  <section id="title-image">
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-5">
+          <div class="text-center text-md-start">
+            <div class="display-5">
+              GAURANTEED JOB PAYEIN
+            </div>
+            <div style="font-size: 18px;" class="py-3 text-muted">
+              Apni Bhasha Mein Seekhein
+            </div>
+            <button class="btn-md btn-primary fs-3 px-4">
+              Apply Now
+            </button>
+          </div>
+        </div>
+        <div class="col-md-7 text-center my-5 my-md-auto">
+          <img class="img-fluid" src="/bootstrap/assets/hero-banner.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
-  
   <!-- Top Courses -->
 
 
@@ -28,7 +84,10 @@
 
   <!-- Get Updates / Modal Trigger -->
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
